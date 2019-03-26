@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Palatino Linotype','Courier New', Courier, sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background:royalblue;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+form input, 
+form button,
+textarea {
+    outline: none;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form .detail {
+    margin: 5px 0;
+}
+
+form input,
+form textarea {
+    border: 1px solid rgba(0 , 0, 0, 0.1);
+    padding: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    border: 1px solid royalblue;
+}
+
+form button {
+    background: royalblue;
+    border: none;
+    color: white;
+    height: 40px;
+}
+
+form button:hover {
+    background: #185ddf;
+}
+
+.task-list .title {
+    font-size: 20px;
+    color: royalblue;
+}
+
+.task-list .item {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid rgba(0 , 0, 0, 0.1);
+}
+
+.task-list .item > * {
+    vertical-align: middle;
+}
+
+#sound {
+    display: none;
+}
+
+.uncompleted {
+    margin-bottom: 20px;
+}
+
+.operation {
+    float: right;
+    position: relative;
+    bottom: -8px;
+}
+
+.task-list button {
+    color: gray;
+}
+
+.task-list button:hover {
+    color: royalblue;
+}
+
+.task-list .detail {
+    font-size: 0.8em;
+    color: gray;
+    margin-left: 46px;
+}
+
